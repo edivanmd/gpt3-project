@@ -88,6 +88,7 @@
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 12px;
+    line-height: 12px;
     line-height: 38px;
     color: #fff;
     text-align: center;
@@ -151,6 +152,12 @@
     .gpt3__header p{
         font-size: 14px;
         line-height: 24px;
+    }
+
+    .gpt3__header-content__people p{
+        margin: 0;
+        font-size: 12px;
+        line-height: 20px;
     }
 
     .gpt3__header-content__input input,
